@@ -1,7 +1,7 @@
 pipeline {
     agent { 
        
-        abel 'Jenkins_slave'
+        label 'Jenkins_slave'
         stages{
               stage('Hello World Pipline Demo') {
                    steps{
