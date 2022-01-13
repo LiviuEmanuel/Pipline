@@ -4,7 +4,7 @@ pipeline {
               stage('Hello World Pipline Demo') {
                   
                    steps {
-                          git 'https://github.com/LiviuEmanuel/Java' 
+                          git 'https://github.com/LiviuEmanuel/Disertatie' 
                           echo 'Hello World Pipline demo'
                          }
               }
