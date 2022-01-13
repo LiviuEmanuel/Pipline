@@ -2,7 +2,12 @@ pipeline {
     agent { 
             node {
                 label 'Jenkins_slave'
-                echo 'Hello World'
+                stage('Hello World Pipline Demo') {
+                    steps{
+                          echo 'Hello World Pipline demo'
+                    }
+                }
+                
             }
-        }
+    }
 }
