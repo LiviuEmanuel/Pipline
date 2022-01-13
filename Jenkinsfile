@@ -1,9 +1,8 @@
 pipeline {
     agent { 
-        Jenkins_slave {
-            node {    
+            node {
+                label 'Jenkins_slave'
                 echo 'Hello World'
             }
         }
-    }
 }
